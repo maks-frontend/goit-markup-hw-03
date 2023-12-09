@@ -3,11 +3,52 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+}
+.header-div {
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.header-nav {
+    display: flex;
+}
+.head-nav {
+    margin-right: 332px;
+    padding: 24px 0;
+    gap: 40px;
+    display: flex;
+}
+.head-contacts {
+    padding: 24px 0;
+    display: flex;
+}
+
 a {
     text-decoration: none;
     color: currentColor;
 }
 .link-mark {
+    display: block;
     color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
@@ -23,6 +64,8 @@ ul {
     list-style-type: none;
 }
 .header-logo {
+    margin-right: 76px;
+    padding-top: 25.5px;
     color: #4d5ae5;
     text-decoration: none;
     font-size: 18px;
@@ -37,6 +80,7 @@ ul {
 color:#2e2f42 ;
 }
 .contacts {
+    gap: 40px;
     font-style: normal;
 }
 .link-contacts {
@@ -48,9 +92,19 @@ color:#2e2f42 ;
     color: #404bbf;
 }
 .wrap {
+    
+}
+.title-div {
+    width: 1128px;
     background-color: #2E2F42;
 }
 .title {
+    padding-bottom: 192px;
+    padding-top: 188px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 496px;
+    display: flex;
     color: #ffffff;
     font-size: 56px;
     font-weight: 700;
@@ -60,6 +114,9 @@ color:#2e2f42 ;
     word-wrap: break-word
 }
 .button {
+    border-radius: 4px;
+    height: 56px;
+    width: 169px;
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     cursor: pointer;
