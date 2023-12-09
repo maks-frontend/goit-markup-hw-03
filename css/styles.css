@@ -99,7 +99,7 @@ color:#2e2f42 ;
     background-color: #2E2F42;
 }
 .title {
-    padding-bottom: 192px;
+    padding-bottom: 48px;
     padding-top: 188px;
     margin-right: auto;
     margin-left: auto;
@@ -114,6 +114,8 @@ color:#2e2f42 ;
     word-wrap: break-word
 }
 .button {
+    margin-bottom: 188px;
+    margin-left: 480px;
     border-radius: 4px;
     height: 56px;
     width: 169px;
@@ -132,6 +134,13 @@ color:#2e2f42 ;
 }
 .section-team {
     background-color: #F4F4FD; 
+}
+.cards {
+   padding: 120px 0;
+}
+.cards-advent {
+    gap: 24px;
+    display: flex;
 }
 .subtitle {
     color: #2e2f42;
