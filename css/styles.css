@@ -91,8 +91,20 @@ color:#2e2f42 ;
 .link-contacts:hover, :focus{
     color: #404bbf;
 }
-.wrap {
+.visually-hidden {
+    .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
     
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
 }
 .title-div {
     border-top: 1px solid #434455;
@@ -134,6 +146,7 @@ color:#2e2f42 ;
     background-color: #404BBF;
 }
 .section-team {
+    padding: 120px;
     background-color: #F4F4FD; 
 }
 .cards {
@@ -144,6 +157,7 @@ color:#2e2f42 ;
     display: flex;
 }
 .subtitle {
+    margin-bottom: 8px;
     color: #2e2f42;
     font-weight: 500;
     font-size: 20px;
@@ -151,7 +165,12 @@ color:#2e2f42 ;
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
+.subtitle-team {
+    margin: 32px 65px 8px;
+    color: #2e2f42;
+}
 .caption {
+    padding: 120px;
     color: #2e2f42;
     text-transform: capitalize;
     text-align: center;
@@ -162,7 +181,14 @@ color:#2e2f42 ;
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
+.team-caption {
+    gap: 24px;
+    justify-content: center;
+    display: flex;
+
+}
 .people {
+    width: 264px;
     background-color: #FFFFFF;
 }
 .text {
@@ -174,10 +200,48 @@ color:#2e2f42 ;
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
+.text-team {
+    margin: 0 68px 32px;
+}
+.caption-portfolio {
+    padding: 120px 0 72px;
+    color: #2e2f42;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    word-wrap: break-word
+}
+.portfolio-block {
+    margin-bottom: 120PX;
+    justify-content: cener;
+    flex-wrap: wrap;
+    gap: 24px;
+    display: flex;
+}
+.portfolio-images {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    width: calc((100% - 24px * 4) / 3)
+    
+}
+.subtitle-port {
+    margin: 32px 0 8px 16px;
+
+}
+.text-port {
+    margin-bottom: 32px;
+    margin-left: 16px;
+}
 .foot {
+    padding: 100px 0;
     background-color: #2e2f42;
 }
 .footer-logo {
+    margin-left: 156px;
     color: #4d5ae5;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
@@ -191,6 +255,9 @@ color:#2e2f42 ;
     color: #F4F4FD;
 }
 .foot-text {
+    margin-top: 18px;
+    margin-left: 156px;
+    width: 264px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
