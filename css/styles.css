@@ -19,17 +19,20 @@ img {
     height: auto;
 }
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 1440px;
+    width: 1158px;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-div {
-    border-bottom: 1px solid #e7e9fc;
+    
     display: flex;
 }
 .header-nav {
+    align-items: center;
     display: flex;
 }
 .head-nav {
@@ -39,6 +42,7 @@ img {
     display: flex;
 }
 .head-contacts {
+    gap: 40px;
     padding: 24px 0;
     display: flex;
 }
@@ -48,6 +52,7 @@ a {
     color: currentColor;
 }
 .link-mark {
+    padding: 24px 0;
     display: block;
     color: #2e2f42;
     font-weight: 500;
