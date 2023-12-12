@@ -19,10 +19,12 @@ img {
     height: auto;
 }
 .container {
+    margin: 0 auto;
     padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
     width: 1158px;
+}
+.wrap {
+    padding: 188px 0;
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -154,7 +156,7 @@ ul {
 }
 .cards-advent {
     gap: 24px;
-        display: flex;
+    display: flex;
 }
 .cards-description {
     width: calc((100% - 72px) / 4);
@@ -166,7 +168,7 @@ ul {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .section-team {
     padding: 120px 0;
@@ -186,7 +188,7 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .team-work {
     gap: 24px;
@@ -208,12 +210,13 @@ ul {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .text-team {
     text-align: center;
 }
 .sect-portfolio {
+    border-top: none;
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -226,7 +229,7 @@ ul {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 .portfolio-block {
     row-gap: 48px;
@@ -284,5 +287,5 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word
+    word-wrap: break-word;
 }
