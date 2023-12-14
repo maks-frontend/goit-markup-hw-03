@@ -84,6 +84,7 @@ ul {
     color:#2e2f42 ;
 }
 .contacts {
+    margin-left: auto;
     gap: 40px;
     font-style: normal;
 }
@@ -108,26 +109,24 @@ ul {
             overflow: hidden;
 }
 .wrap {
-    
+    padding: 188px 0;
+    background-color: #2E2F42;  
 }
 .title-div {
-    height: 600px;
-    background-color: #2E2F42;
+
+    
 }
 .title {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 188px;
     margin-bottom: 48px;
     max-width: 496px;
-    display: flex;
     color: #ffffff;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    word-wrap: break-word
 } 
 .button {
     border: none;
@@ -197,6 +196,7 @@ ul {
 
 }
 .people {
+    background-color: white;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
@@ -238,9 +238,6 @@ ul {
     display: flex;
 }
 .portfolio-images {
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 80px;
     width: calc((100% - 48px) / 3);
     
 }
@@ -273,8 +270,7 @@ ul {
     letter-spacing: 0.03em;
 }
 .footer-box {
-    max-width: 264px;
-    margin-left: 156px;
+
 }
 .f-logo {
     letter-spacing: 0.02em;
